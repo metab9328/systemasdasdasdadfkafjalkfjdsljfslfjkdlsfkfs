@@ -17,7 +17,7 @@ client.on('ready', () => {
 
 client.on('ready', function(){
     var ms = 60000 ;
-    var setGame = [`${client.guilds.size} Server`,' Premium Bot™ by n3k4a & Baron','Type -help |-support |-invite ',`${client.users.size} Members`,'-invite','By: n3k4a & Hosam | BaronTube'];
+    var setGame = [`${client.guilds.size} Server`,' ','-help |-support |-invite ',`${client.users.size} Members`,'-invite','By: n3k4a & Hosam | BaronTube'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -137,7 +137,6 @@ if (message.content === "-help") {
 『-server/يعرض لك معلومات عن السيرفر』
 『-allbots/ لمعرفه عدد البوتات في السيرفر』
 『-botin/يعرض لك  كل معلومات البوت』
-『-support /للتواصل مع صاحب البوت』
 『-id/معلومات  عنك』
 『-invite/لدعوه البوت الي سيرفرك 』
 『-avatar /للعرض صورتك او صورة شخص فقط قم بعمل منشن له 』
@@ -552,7 +551,7 @@ client.on('message',message =>{
   });
 
 client.on("message", message => {
- if (message.content === "-support") {
+ if (message.content === "-supporsssst") {
   const embed = new Discord.RichEmbed()
       .setTitle('Click here')
       .setURL(' https://discord.gg/ZnPDHaA ')
