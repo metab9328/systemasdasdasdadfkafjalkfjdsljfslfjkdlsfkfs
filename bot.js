@@ -161,11 +161,6 @@ if (message.content === "-help") {
 『-cat/صور قطط صغيره』
 『-paint/يجبلك الكلام الي تكتبه في صوره』
 『-trans/يترجم الكلمه الي تكتبه ال اي لغه مع تحديد』
-=====اوامر اضافيه====
-『ترحيب』
-『باك』
-『السلام عليكم』
-『حشيش』
 **
   `,`
         ***__Administrative Orders__***
@@ -518,11 +513,11 @@ if(!message.guild.member(client.user).hasPermission("MANAGE_MESSAGES")) return m
  
 
 client.on("message", message => {
- if (message.content === "-invite") {
+ if (message.content === "-iddnviteسشييsada") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setFooter('© Premium Bot :heart: جميع الحقوق محفوظة 2018 لــبوت')
-      .addField('شكرا لك لاستخدامك ل بروميوم بوت', `https://modest-lewin-146a75.netlify.com`)
+      .addField('', `https://modest-lewin-146a75.netlify.com`)
   message.author.send({embed});
 
  }
@@ -1332,7 +1327,7 @@ message.channel.sendEmbed(cat);
 
 client.on('message', message => {
 if(message.author.bot) return;
-if (message.content === 'السلام عليكم') {
+if (message.content === 'الضصثضصثم') {
 message.channel.sendFile("https://cdn.discordapp.com/attachments/462240606513659904/481475996122611712/images.jpg");
  }
 });
@@ -1340,7 +1335,7 @@ message.channel.sendFile("https://cdn.discordapp.com/attachments/462240606513659
 
 client.on('message', message => {
 if(message.author.bot) return;
-if (message.content === 'حشيش') {
+if (message.content === 'حششششششيششضصثششششش') {
 message.channel.sendFile("https://cdn.discordapp.com/attachments/462240606513659904/481474963925106708/images.jpg");
 }
 });
@@ -1349,7 +1344,7 @@ message.channel.sendFile("https://cdn.discordapp.com/attachments/462240606513659
 
 client.on('message', message => {
 if(message.author.bot) return;
-if (message.content === 'باك') {
+if (message.content === 'باكككككككس') {
  message.channel.sendFile("https://cdn.discordapp.com/attachments/462240606513659904/481473773959381021/download.png");
  }
  });
@@ -1358,7 +1353,7 @@ if (message.content === 'باك') {
          
 client.on('message', message => {
 if(message.author.bot) return;
-if (message.content.startsWith('ترحيب')) {
+if (message.content.startsWith('ترحيبيششيسشي')) {
 message.channel.send("https://cdn.discordapp.com/attachments/486250425817890821/487718238839504917/images.jpg")
 }
 });
